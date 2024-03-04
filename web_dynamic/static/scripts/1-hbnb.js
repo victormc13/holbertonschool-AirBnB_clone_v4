@@ -12,6 +12,5 @@ $(document).ready(function() {
     } else {
       $('div.amenities > h4').html('&nbsp;');
     }
-    console.log(checkedAmenities)
   });
 });

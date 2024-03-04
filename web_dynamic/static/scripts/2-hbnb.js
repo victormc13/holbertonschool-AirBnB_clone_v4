@@ -14,7 +14,7 @@ $(document).ready(function() {
     }
   });
   // Request to .../api/v1/status/
-  $.get('http://0.0.0.0:5001/api/v1/status/', (data, textStatus) => {
+  $.get('http://localhost:5001/api/v1/status/', (data, textStatus) => {
     if (textStatus === 'success') {
       if (data.status === 'OK') {
         $('div#api_status').addClass('available');

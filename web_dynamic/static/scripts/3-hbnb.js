@@ -31,7 +31,6 @@ $(document).ready(function() {
     contentType: 'application/json',
     dataType: 'json',
     success: (data) => {
-      console.log(data)
       data.forEach((place) => {
         $('.places').append(`
           <article>
